@@ -1,0 +1,419 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ENGLISH LAB - THE ALPHABET</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Asap|Gudea:400,400italic,700">
+      <link rel="stylesheet" href="css/style.css">
+<script type="text/javascript" src="js/jquery.popup.js"></script>
+
+</head>
+
+<body>
+	<div class="container">
+<div class="row">
+ <div class="col-lg-2"><a class="btn" id="audioA" href="#"><img src="images/A.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioB"  href="#"><img src="images/B.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioC" href="#"><img src="images/C.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioD" href="#"><img src="images/D.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioE" href="#"><img src="images/E.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioF" href="#"><img src="images/F.png" width="120" height="120" alt=""/></a></div>
+</div>
+		
+		
+<div class="row">
+  <div class="col-lg-2"><a class="btn" id="audioG" href="#"><img src="images/G.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioH" href="#"><img src="images/H.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioI" href="#"><img src="images/I.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioJ" href="#"><img src="images/J.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioK" href="#"><img src="images/K.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioL" href="#"><img src="images/L.png" width="120" height="120" alt=""/></a></div>
+</div>	
+<div class="row">
+  <div class="col-lg-2"><a class="btn" id="audioM" href="#"><img src="images/M.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioN" href="#"><img src="images/N.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioO" href="#"><img src="images/O.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioP" href="#"><img src="images/P.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioQ" href="#"><img src="images/Q.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioR" href="#"><img src="images/R.png" width="120" height="120" alt=""/></a></div>
+</div>
+<div class="row">
+  <div class="col-lg-2"><a class="btn" id="audioS" href="#"><img src="images/S.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioT" href="#"><img src="images/T.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioU" href="#"><img src="images/u.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioV" href="#"><img src="images/v.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioW" href="#"><img src="images/w.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioX" href="#"><img src="images/x.png" width="120" height="120" alt=""/></a></div>
+</div>
+		
+<div class="row">
+ 
+  <div class="col-lg-2"><a class="btn" id="audioY" href="#"><img src="images/Y.png" width="120" height="120" alt=""/></a></div>
+  <div class="col-lg-2"><a class="btn" id="audioZ" href="#"><img src="images/Z.png" width="120" height="120" alt=""/></a></div>
+	<div class="col-lg-2"><a class="btn" id="burn" onClick="random()" href="#"><img src="images/click.png" width="120" height="120" alt=""/></a></div>
+</div>	
+		
+</div>
+	
+<!-- VENTANA A-->		
+<div class="popup" data-popup="popup-A" id="popupA">
+<div class="popup-inner">
+<h2>A - AIRPLANE</h2>
+<p align="center"><img src="images/AIRPLANE.png" width="500" height="300" alt=""/></p>
+<a class="popup-close" data-popup-close="popup-A" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA A-->	
+
+<!-- VENTANA B-->	
+<div class="popup" data-popup="popup-B" id="popupB">
+<div class="popup-inner">
+<h2>B - BALL</h2>
+<p align="center"><img src="images/BALL.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-B" href="#">x</a>
+	
+</div>
+</div>
+<!-- VENTANA B-->	
+	
+<!-- VENTANA C-->	
+<div class="popup" data-popup="popup-C" id="popupC">
+<div class="popup-inner">
+<h2>C - CAR</h2>
+<p align="center"><img src="images/CAR.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-C" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA C-->
+	
+<!-- VENTANA D-->	
+<div class="popup" data-popup="popup-D" id="popupD">
+<div class="popup-inner">
+<h2>D - DOLL</h2>
+<p align="center"><img src="images/DOLL.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-D" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA D-->
+	
+<!-- VENTANA E-->	
+<div class="popup" data-popup="popup-E" id="popupE">
+<div class="popup-inner">
+<h2>E - ELEPHANT</h2>
+<p align="center"><img src="images/ELEPHANT.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-E" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA E-->
+
+<!-- VENTANA F-->	
+<div class="popup" data-popup="popup-F" id="popupF">
+<div class="popup-inner">
+<h2>F - FLOWERS</h2>
+<p align="center"><img src="images/FLOWER.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-F" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA F-->
+	
+<!-- VENTANA G-->	
+<div class="popup" data-popup="popup-G" id="popupG">
+<div class="popup-inner">
+<h2>G - GLASS</h2>
+<p align="center"><img src="images/GLASS.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-G" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA G-->	
+	
+<!-- VENTANA H-->	
+<div class="popup" data-popup="popup-H" id="popupH">
+<div class="popup-inner">
+<h2>H - HOUSE</h2>
+<p align="center"><img src="images/HOUSE.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-H" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA H-->
+	
+<!-- VENTANA I-->	
+<div class="popup" data-popup="popup-I" id="popupI">
+<div class="popup-inner">
+<h2>I - ICE CREAM</h2>
+<p align="center"><img src="images/ICECREAM.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-I" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA I-->
+	
+<!-- VENTANA J-->	
+<div class="popup" data-popup="popup-J" id="popupJ">
+<div class="popup-inner">
+<h2>J - JACKET</h2>
+<p align="center"><img src="images/JACKET.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-J" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA J-->
+	
+<!-- VENTANA K-->	
+<div class="popup" data-popup="popup-K" id="popupK">
+<div class="popup-inner">
+<h2>K - KITE</h2>
+<p align="center"><img src="images/KOMET.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-K" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA K-->	
+	
+<!-- VENTANA L-->	
+<div class="popup" data-popup="popup-L" id="popupL">
+<div class="popup-inner">
+<h2>L - LEOPARD</h2>
+<p align="center"><img src="images/LEOPARD.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-L" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA L-->
+	
+<!-- VENTANA M-->	
+<div class="popup" data-popup="popup-M" id="popupM">
+<div class="popup-inner">
+<h2>M - MONKEY</h2>
+<p align="center"><img src="images/MONKEY.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-M" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA M-->	
+	
+<!-- VENTANA N-->	
+<div class="popup" data-popup="popup-N" id="popupN">
+<div class="popup-inner">
+<h2>N - NOTEBOOK</h2>
+<p align="center"><img src="images/NOTEBOOK.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-N" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA N-->	
+	
+<!-- VENTANA O-->	
+<div class="popup" data-popup="popup-O" id="popupO">
+<div class="popup-inner">
+<h2>O - OCTOPUS</h2>
+<p align="center"><img src="images/OCTOPUS.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-O" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA O-->	
+	
+<!-- VENTANA P-->	
+<div class="popup" data-popup="popup-P" id="popupP">
+<div class="popup-inner">
+<h2>P - PIZZA</h2>
+<p align="center"><img src="images/PIZZA.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-P" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA P-->	
+	
+	
+<!-- VENTANA Q-->	
+<div class="popup" data-popup="popup-Q" id="popupQ">
+<div class="popup-inner">
+<h2>Q - QUILT</h2>
+<p align="center"><img src="images/QUILT.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-Q" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA Q-->
+	
+<!-- VENTANA R-->	
+<div class="popup" data-popup="popup-R" id="popupR">
+<div class="popup-inner">
+<h2>R - ROBOT</h2>
+<p align="center"><img src="images/ROBOT.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-R" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA R-->
+	
+<!-- VENTANA S-->	
+<div class="popup" data-popup="popup-S" id="popupS">
+<div class="popup-inner">
+<h2>S - SWEET</h2>
+<p align="center"><img src="images/SWEET.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-S" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA S-->
+	
+<!-- VENTANA T-->	
+<div class="popup" data-popup="popup-T" id="popupT">
+<div class="popup-inner">
+<h2>T - TRAIN</h2>
+<p align="center"><img src="images/TRAIN.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-T" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA T-->
+	
+<!-- VENTANA U-->	
+<div class="popup" data-popup="popup-U" id="popupU">
+<div class="popup-inner">
+<h2>U - UMBRELLA</h2>
+<p align="center"><img src="images/UMBRELLA.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-U" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA U-->	
+	
+<!-- VENTANA V-->	
+<div class="popup" data-popup="popup-V" id="popupV">
+<div class="popup-inner">
+<h2>V - VIOLIN</h2>
+<p align="center"><img src="images/VIOLIN.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-V" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA V-->	
+	
+<!-- VENTANA W-->	
+<div class="popup" data-popup="popup-W" id="popupW">
+<div class="popup-inner">
+<h2>W - WHALE</h2>
+<p align="center"><img src="images/WHALE.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-W" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA W-->
+	
+<!-- VENTANA X-->	
+<div class="popup" data-popup="popup-X" id="popupX">
+<div class="popup-inner">
+<h2>X - XILOPHONE</h2>
+<p align="center"><img src="images/XILOPHONE.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-X" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA X-->
+	
+	
+<!-- VENTANA Y-->	
+<div class="popup" data-popup="popup-Y" id="popupY">
+<div class="popup-inner">
+<h2>Y - YO-YO</h2>
+<p align="center"><img src="images/YOYO.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-Y" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA Y-->
+	
+<!-- VENTANA Z-->	
+<div class="popup" data-popup="popup-Z" id="popupZ">
+<div class="popup-inner">
+<h2>Z - ZEBRA</h2>
+<p align="center"><img src="images/ZEBRA.png" width="500" height="300" alt=""/</p>
+<a class="popup-close" data-popup-close="popup-Z" href="#">x</a>
+</div>
+</div>
+<!-- VENTANA Z-->	
+	
+	
+	
+
+	<!-- Example of audio element -->
+	
+	<audio id="letras1"><source src="sonidos/A.mp3" type="audio/mpeg"></audio>
+	<audio id="letras2"><source src="sonidos/B.mp3" type="audio/mpeg"></audio>
+	<audio id="letras3"><source src="sonidos/C.mp3" type="audio/mpeg"></audio>
+	<audio id="letras4"><source src="sonidos/D.mp3" type="audio/mpeg"></audio>
+	<audio id="letras5"><source src="sonidos/E.mp3" type="audio/mpeg"></audio>
+	<audio id="letras6"><source src="sonidos/F.mp3" type="audio/mpeg"></audio>
+	<audio id="letras7"><source src="sonidos/G.mp3" type="audio/mpeg"></audio>
+	<audio id="letras8"><source src="sonidos/H.mp3" type="audio/mpeg"></audio>
+	<audio id="letras9"><source src="sonidos/I.mp3" type="audio/mpeg"></audio>
+	<audio id="letras10"><source src="sonidos/J.mp3" type="audio/mpeg"></audio>
+	<audio id="letras11"><source src="sonidos/K.mp3" type="audio/mpeg"></audio>
+	<audio id="letras12"><source src="sonidos/L.mp3" type="audio/mpeg"></audio>
+	<audio id="letras13"><source src="sonidos/M.mp3" type="audio/mpeg"></audio>
+	<audio id="letras14"><source src="sonidos/N.mp3" type="audio/mpeg"></audio>
+	<audio id="letras15"><source src="sonidos/O.mp3" type="audio/mpeg"></audio>
+	<audio id="letras16"><source src="sonidos/P.mp3" type="audio/mpeg"></audio>
+	<audio id="letras17"><source src="sonidos/Q.mp3" type="audio/mpeg"></audio>
+	<audio id="letras18"><source src="sonidos/R.mp3" type="audio/mpeg"></audio>
+	<audio id="letras19"><source src="sonidos/S.mp3" type="audio/mpeg"></audio>
+	<audio id="letras20"><source src="sonidos/T.mp3" type="audio/mpeg"></audio>
+	<audio id="letras21"><source src="sonidos/U.mp3" type="audio/mpeg"></audio>
+	<audio id="letras22"><source src="sonidos/V.mp3" type="audio/mpeg"></audio>
+	<audio id="letras23"><source src="sonidos/W.mp3" type="audio/mpeg"></audio>
+	<audio id="letras24"><source src="sonidos/X.mp3" type="audio/mpeg"></audio>
+	<audio id="letras25"><source src="sonidos/Y.mp3" type="audio/mpeg"></audio>
+	<audio id="letras26"><source src="sonidos/Z.mp3" type="audio/mpeg"></audio>
+	
+<!-- Example of audio element -->
+	<audio id="audioID0"><source src="sonidos/wrong.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDA"><source src="sonidos/A.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDB"><source src="sonidos/B.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDC"><source src="sonidos/C.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDD"><source src="sonidos/D.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDE"><source src="sonidos/E.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDF"><source src="sonidos/F.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDG"><source src="sonidos/G.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDH"><source src="sonidos/H.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDI"><source src="sonidos/I.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDJ"><source src="sonidos/J.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDK"><source src="sonidos/K.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDL"><source src="sonidos/L.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDM"><source src="sonidos/M.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDN"><source src="sonidos/N.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDO"><source src="sonidos/O.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDP"><source src="sonidos/P.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDQ"><source src="sonidos/Q.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDR"><source src="sonidos/R.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDS"><source src="sonidos/S.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDT"><source src="sonidos/T.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDU"><source src="sonidos/U.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDV"><source src="sonidos/V.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDW"><source src="sonidos/W.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDX"><source src="sonidos/X.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDY"><source src="sonidos/Y.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDZ"><source src="sonidos/Z.mp3" type="audio/mpeg"></audio>
+	
+	
+	<audio id="audioIDA1"><source src="sonidos/AIRPLANE.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDB1"><source src="sonidos/BALL.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDC1"><source src="sonidos/CAR.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDD1"><source src="sonidos/DOLL.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDE1"><source src="sonidos/ELEPHANT.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDF1"><source src="sonidos/FLOWER.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDG1"><source src="sonidos/GLASS.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDH1"><source src="sonidos/HOUSE.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDI1"><source src="sonidos/ICECREAM.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDJ1"><source src="sonidos/JACKET.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDK1"><source src="sonidos/KITE.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDL1"><source src="sonidos/LEOPARD.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDM1"><source src="sonidos/MONKEY.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDN1"><source src="sonidos/NOTEBOOK.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDO1"><source src="sonidos/OCTOPUS.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDP1"><source src="sonidos/PIZZA.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDQ1"><source src="sonidos/QUILT.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDR1"><source src="sonidos/ROBOT.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDS1"><source src="sonidos/SWEET.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDT1"><source src="sonidos/TRAIN.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDU1"><source src="sonidos/UMBRELLA.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDV1"><source src="sonidos/VIOLIN.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDW1"><source src="sonidos/WHALE.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDX1"><source src="sonidos/XILOPHONE.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDY1"><source src="sonidos/YOYO.mp3" type="audio/mpeg"></audio>
+	<audio id="audioIDZ1"><source src="sonidos/ZEBRA.mp3" type="audio/mpeg"></audio>
+	
+	<script  src="js/sound-mouseover.js"></script>
+	
+</body>
+</html>
+ 
+
